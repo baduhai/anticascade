@@ -1,0 +1,24 @@
+{
+    "KPlugin": {
+        "Name": "Anti Cascade",
+        "Description": "Stop the cascading introduced in 5.27",
+        "Icon": "preferences-system-windows",
+
+        "Authors": [
+            {
+                "Email": "baduhai@proton.me",
+                "Name": "William Franco Abdul Hai"
+            }
+        ],
+        "Id": "anticascade",
+        "ServiceTypes": [
+            "KWin/Script"
+        ],
+        "Version": "1.0",
+        "Licsense": "GPLv3",
+        "Website": "https://github.com/baduhai/anticascade"
+    },
+    "X-Plasma-API": "javascript",
+    "X-Plasma-MainScript": "code/main.js"
+}
+
